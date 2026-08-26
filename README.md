@@ -1,140 +1,171 @@
 # 🛡️ The Red Team Handbook
 
-> A practical, beginner-to-intermediate Red Team handbook focused on penetration testing, web security, reconnaissance, exploitation, Active Directory, cloud security, and real-world offensive security workflows.
+> **A practical Red Team knowledge base for learning, practicing, and revising offensive security concepts.**
+
+<p align="center">
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/singhshreyash75-eng/The-Red-Team-Handbook)
 ![GitHub repo size](https://img.shields.io/github/repo-size/singhshreyash75-eng/The-Red-Team-Handbook)
 ![GitHub stars](https://img.shields.io/github/stars/singhshreyash75-eng/The-Red-Team-Handbook?style=social)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</p>
 
 ---
 
 ## 📖 About
 
-This repository is my personal **Red Team knowledge base** built while learning and practicing offensive security.
+**The Red Team Handbook** is a structured collection of notes, methodologies, commands, and practical references created while studying offensive security.
 
-Instead of maintaining scattered notes, this handbook is designed to be a **single place** for:
+Instead of maintaining scattered notes across different platforms, this repository serves as a **single source of truth** for:
 
-- 🏴 Red Teaming
-- 🌐 Web Application Pentesting
-- 🔍 Reconnaissance
-- 💰 Bug Bounty Hunting
-- 🎯 Capture The Flag (CTFs)
-- 💼 Interview Preparation
-- 📚 Quick Revision
+- 🏴 Web Application Penetration Testing
+- 🔍 Reconnaissance & Enumeration
+- ⚔️ Exploitation
+- 🔐 Privilege Escalation
+- 🏢 Active Directory
+- ☁️ Cloud Security
+- 🧠 CVEs & Vulnerability Research
+- 🛠️ Security Tools
+- 🎯 CTFs & Labs
+- 📚 Interview Preparation
 
-The focus is on **practical knowledge**, **commands**, **methodologies**, **real-world examples**, and **hands-on workflows**.
-
----
-
-# 🎯 Learning Roadmap
-
-```text
-Linux
-   │
-   ▼
-Networking
-   │
-   ▼
-HTTP / DNS
-   │
-   ▼
-Web Security
-   │
-   ▼
-Recon
-   │
-   ▼
-Enumeration
-   │
-   ▼
-Exploitation
-   │
-   ▼
-Privilege Escalation
-   │
-   ▼
-Active Directory
-   │
-   ▼
-Cloud Security
-```
+The goal is to keep everything **organized, practical, and easy to revise**.
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-00-Fundamentals/
-01-Web-Pentesting/
-02-Recon/
-03-Enumeration/
-04-Exploitation/
-05-Privilege-Escalation/
-06-Active-Directory/
-07-Cloud/
-08-CVEs/
-09-Tools/
-10-Scripting/
-11-Wordlists/
-12-CheatSheets/
-13-CTFs/
-14-Labs/
-15-Resources/
+The-Red-Team-Handbook
+│
+├── 00-Fundamentals
+├── 01-Web-Pentesting
+├── 02-Recon
+├── 03-Enumeration
+├── 04-Exploitation
+├── 05-Privilege-Escalation
+├── 06-Active-Directory
+├── 07-Cloud
+├── 08-CVEs
+├── 09-Tools
+├── 10-Scripting
+├── 11-Wordlists
+├── 12-CheatSheets
+├── 13-CTFs
+├── 14-Labs
+└── 15-Resources
 ```
 
 ---
 
-# 📚 Modules
+# 🎯 Learning Flow
 
-| Module | Status |
-|---------|--------|
-| Fundamentals | 🚧 In Progress |
-| Web Pentesting | ⏳ Planned |
-| Recon | ⏳ Planned |
-| Enumeration | ⏳ Planned |
-| Exploitation | ⏳ Planned |
-| Privilege Escalation | ⏳ Planned |
-| Active Directory | ⏳ Planned |
-| Cloud Security | ⏳ Planned |
-| CVEs | ⏳ Planned |
-| Tools | ⏳ Planned |
-| Cheat Sheets | ⏳ Planned |
-| Labs | ⏳ Planned |
+```text
+Linux
+   ↓
+Networking
+   ↓
+HTTP • DNS • TCP/IP
+   ↓
+Web Security
+   ↓
+Reconnaissance
+   ↓
+Enumeration
+   ↓
+Exploitation
+   ↓
+Privilege Escalation
+   ↓
+Active Directory
+   ↓
+Cloud Security
+```
 
 ---
 
 # 🛠️ Topics Covered
 
-- Linux Fundamentals
+### Fundamentals
+
+- Linux
 - Networking
-- Web Security
-- Reconnaissance
-- Enumeration
-- Exploitation
-- Privilege Escalation
-- Active Directory
-- Cloud Security
-- CVEs
-- Common Pentesting Tools
-- CTF Walkthrough References
-- Practical Commands
-- Cheat Sheets
+- HTTP / HTTPS
+- DNS
+- TCP/IP
+- Cryptography
+- Encoding
+- Bash
+- File Permissions
+
+### Web Security
+
+- OWASP Top 10
+- SQL Injection
+- XSS
+- CSRF
+- SSRF
+- XXE
+- SSTI
+- IDOR
+- JWT
+- File Upload
+- API Security
+- GraphQL
+
+### Recon
+
+- Passive Recon
+- Active Recon
+- Subdomain Enumeration
+- Content Discovery
+- JavaScript Recon
+- GitHub Recon
+- OSINT
+- Google Dorking
+
+### Enumeration
+
+- Nmap
+- SMB
+- FTP
+- SSH
+- LDAP
+- DNS
+- SNMP
+- SMTP
+
+### Privilege Escalation
+
+- Linux
+- Windows
+- SUID
+- Capabilities
+- GTFOBins
+- LinPEAS
+- WinPEAS
+
+### Active Directory
+
+- BloodHound
+- Kerberoasting
+- AS-REP Roasting
+- Mimikatz
+- Rubeus
+- Impacket
+
+### Cloud
+
+- AWS
+- Azure
+- GCP
+- Docker
+- Kubernetes
 
 ---
 
-# 🎯 Who is this for?
-
-- Students
-- Cybersecurity Enthusiasts
-- Bug Bounty Hunters
-- Pentesters
-- Red Team Beginners
-- Interview Preparation
-- CTF Players
-
----
-
-# 📚 Recommended Practice Platforms
+# 💻 Recommended Practice Platforms
 
 - TryHackMe
 - Hack The Box
@@ -145,18 +176,28 @@ Cloud Security
 
 ---
 
+# 🎯 Purpose of this Repository
+
+This repository is built to serve as:
+
+- 📚 A personal knowledge base
+- 🧠 A quick revision guide
+- 💼 Interview preparation material
+- 🎯 A CTF reference
+- 🔬 A practical Red Team handbook
+
+---
+
 # ⚠️ Disclaimer
 
-This repository is intended for **educational and authorized security testing only**.
+This repository is intended **strictly for educational purposes and authorized security testing**.
 
-Never attack systems without explicit permission.
-
----
-
-## ⭐ Support
-
-If you find this handbook useful, consider starring the repository and sharing it with others.
+Do **not** use the information provided here against systems you do not own or have explicit permission to test.
 
 ---
 
-Made with ❤️ while learning Red Teaming.
+# ⭐ Support
+
+If you find this repository useful, consider giving it a ⭐.
+
+Contributions, suggestions, and corrections are always welcome.
