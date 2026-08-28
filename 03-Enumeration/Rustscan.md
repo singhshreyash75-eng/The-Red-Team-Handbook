@@ -2,7 +2,7 @@
 
 > RustScan is a fast port-discovery tool written in Rust. Its main strength is quickly identifying open ports and then handing those ports to tools such as Nmap for deeper service enumeration.
 
----
+--
 
 ## Overview
 
